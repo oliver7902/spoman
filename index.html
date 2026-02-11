@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <!-- =========================================
+    head
+    ========================================== -->
+    <head>
+
+
+        <!-- =========================================
+        Basic
+        ========================================== -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>SPOMAN</title>
+        <meta name="keywords" content="SPOMAN, 스포맨, 스포츠분석, AI승부예측, 토토분석, 프로토, 배트맨, NBA분석, KBL분석, 축구분석, 야구분석, SPO Engine, 베팅추천, 스포츠데이터" />
+        <meta name="author" content="SPOMAN APP" />
+        <meta name="robots" content="index, follow"/>
+        <meta name="description" content="데이터가 승부를 결정한다, SPOMAN. AI 기반 스포츠 승부 예측, SPO Engine의 정밀 데이터 분석, 그리고 최적의 베팅 조합 추천 서비스를 지금 만나보세요." />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="GOOGLEBOT" content="index, follow"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no">
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="SPOMAN - AI 스포츠 승부 예측의 기준" />
+        <meta property="og:description" content="당신의 직감을 확신으로 바꿉니다. 10년 치 빅데이터와 SPO Engine이 분석한 압도적 적중률을 경험하세요." />
+        <meta property="og:site_name" content="SPOMAN" />
+
+        <!-- =========================================
+        fav & icons for iPhone and iPad
+        ========================================== -->
+        <link rel="shortcut icon" href="images/icons/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" href="images/icons/icon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/icon@2x.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/icon-72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/icon-72@2x.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/icons/icon-60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/icons/icon-60@2x.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/icons/icon-76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/icons/icon-76@2x.png" />
+
+        <!-- =========================================
+        CSS
+        ========================================== -->
+        <link rel="stylesheet" media="screen" href="assets/plugins/bootstrap-3.3.5/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" media="screen" href="css/style.css"/>
+
+        <!-- =========================================
+        Colors
+        ========================================== -->
+        <link rel="stylesheet" href="css/colors/main-color.css" id="color-switch"/>
+
+        <link rel="stylesheet" media="screen" href="StyleSwitcher/switcher.css" />
+
+        <!-- =========================================
+        Head Libs
+        ========================================== -->
+        <script type="text/javascript" src="js/vendor/modernizr.custom.js"></script>
+
+        <!-- =========================================
+        Google Analytics
+        ========================================== -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+        <script type="text/javascript">
+                (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+                e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+                e.src='http://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+                ga('create','UA-XXXXX-X', '_trackPageview');
+                ga('send','pageview');
+        </script>
+
+
+    </head><!-- /head -->
+
+
+
+
+    <!-- =========================================
+    body
+    ========================================== -->
+    <body>
+
+
+
+
+        <!-- =========================================
+        Loader
+        ========================================== -->
+        <div id="Loader">
+            <div id="circle"></div>
+            <div id="circle1"></div>
+        </div>
+
+
+
+
+        <!-- =========================================
+        Menu Section
+        ========================================== -->
+        <section id="sidebar-menu" class="sticky">
+            <div id="sidebar-wrapper">
+                <div id="sidebar-scroller">
+                    <div id="sidebar-container">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="Logo" />
+                        </div>
+                        <ul>
+                            <li><a href="#home-section" title="Home" class="scrollto">Home</a></li>
+                            <li><a href="#feature-section" title="Features" class="scrollto">Features</a></li>
+                            <li><a href="#works-section" title="How It Works" class="scrollto">How It Works</a></li>
+                            <li><a href="#portfolio-section" title="Screenshots" class="scrollto">Screenshots</a></li>
+                            <li><a href="#closer-section" title="APP View" class="scrollto">APP View</a></li>
+                            <li><a href="#team-section" title="Our Team" class="scrollto">Our Team</a></li>
+                            <li><a href="#moreapps-section" title="More APPs" class="scrollto">More APPs</a></li>
+                            <li><a href="#faq-section" title="Faqs" class="scrollto">Faqs</a></li>
+                            <li><a href="#clients-section" title="Testimonials" class="scrollto">Testimonials</a></li>
+                            <li><a href="#price-section" title="Pricing Tables" class="scrollto">Pricing Tables</a></li>
+                            <li><a href="#recent-section" title="Recent Posts" class="scrollto">Recent Posts</a></li>
+                            <li><a href="#reach-section" title="Contact Us" class="scrollto">Contact Us</a></li>
+                            <li><a href="#subscribe-section" title="Subscribe" class="scrollto">Subscribe</a></li>
+                        </ul>
+                        <div class="info">
+                            <p>(999) 888-1234</p>
+                            <p>name@yourdomain.com</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="sidebar-btn" href="#"><i class="fa fa-bars"></i></a>
+            </div>
+            <div id="sidebar-overlayer"></div>
+        </section>
+
+
+
+
+        <!-- =========================================
+        Home Section
+        ========================================== -->
+        <!-- home-section -->
+        <section class="image-slider" id="home-section">
+            <!-- home-section-wrapper -->
+            <div id="home-section-wrapper">
+
+                <!-- container -->
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+
+
+                        <!-- col-md-12 -->
+                        <div class="col-md-12">
+
+                            <!-- slogan -->
+                            <div class="slogan" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                                <h1>당신의 직감을 확신으로 바꾸는 AI 스포츠 분석</h1>
+                            </div><!-- /slogan -->
+
+                            <!-- desc -->
+                            <div class="desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:500, repeat: true}">
+                                <p>전 세계 스포츠 빅데이터와 SPO 엔진이 결합된 압도적 승률. 지금 바로 경험하세요.</p>
+                            </div><!-- /desc -->
+
+                            <!-- buttons -->
+                            <div class="buttons" data-uk-scrollspy="{cls:'uk-animation-fade', delay:500, repeat: true}">
+                                <a class="btn btn-lg btn-nesto-home" href="javascript:void(0)" title="Buy In App Store">
+                                    <i class="fa fa-apple"></i> App Store
+                                </a>
+                                <a class="btn btn-lg btn-nesto-home" href="javascript:void(0)" title="Buy In Google Play">
+                                    <i class="fa fa-android"></i> Google Play
+                                </a>
+                            </div><!-- /buttons -->
+
+                        </div><!-- /col-md-12 -->
+
+
+                        <!-- col-md-4 left -->
+                        <div class="col-md-4 left">
+
+
+                            <!-- feature-box-style-1 -->
+                            <div class="feature-box-style-1" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:700, repeat: true}">
+
+                                <!-- feature-icon -->
+                                <div class="feature-icon">
+                                    <i class="fa fa-check-circle-o"></i>
+                                </div><!-- /feature-icon -->
+
+                                <!-- feature-title -->
+                                <div class="feature-title">
+                                    <h4>국내외 주요 경기(EPL, KBO, NBA 등)<br>승무패 예측 분석</h4>
+                                </div><!-- /feature-title -->
+
+                                <!-- feature-desc
+                                <div class="feature-desc">
+                                    <p>Mauris a sem vitae enim blandit dignissim sed vel sem. Donec tincidunt mauris eget dui dictum, a tristique ante elementum.</p>
+                                </div>-->
+
+                            </div><!-- /feature-box-style-1 -->
+
+
+                            <!-- feature-box-style-1 -->
+                            <div class="feature-box-style-1" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:900, repeat: true}">
+
+                                <!-- feature-icon -->
+                                <div class="feature-icon">
+                                    <i class="fa fa-check-circle-o"></i>
+                                </div><!-- /feature-icon -->
+
+                                <!-- feature-title -->
+                                <div class="feature-title">
+                                    <h4>매일 경기별 핵심 데이터 리포트 제공.</h4>
+                                </div><!-- /feature-title -->
+
+                            </div><!-- /feature-box-style-1 -->
+
+
+                        </div><!-- /col-md-4 left -->
+
+
+                        <!-- col-md-4 -->
+                        <div class="col-md-4">
+
+                            <!-- feature-home-image -->
+                            <div class="feature-home-image" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:700, repeat: true}">
+                                <img src="images/feature-images/001.png" alt="SPOMAN APP" />
+                            </div><!-- /feature-home-image -->
+
+                        </div><!-- /col-md-4 -->
+
+
+                        <!-- col-md-4 right -->
+                        <div class="col-md-4 right">
+
+
+                            <!-- feature-box-style-1 -->
+                            <div class="feature-box-style-1" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:700, repeat: true}">
+
+                                <!-- feature-icon -->
+                                <div class="feature-icon">
+                                    <i class="fa fa-check-circle-o"></i>
+                                </div><!-- /feature-icon -->
+
+                                <!-- feature-title -->
+                                <div class="feature-title">
+                                    <h4>다차원 데이터 수집 및 처리 및<br> AI 예측 모델링</h4>
+                                </div><!-- /feature-title -->
+
+
+
+                            </div><!-- /feature-box-style-1 -->
+
+
+                            <!-- feature-box-style-1 -->
+                            <div class="feature-box-style-1" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:900, repeat: true}">
+
+                                <!-- feature-icon -->
+                                <div class="feature-icon">
+                                    <i class="fa fa-check-circle-o"></i>
+                                </div><!-- /feature-icon -->
+
+                                <!-- feature-title -->
+                                <div class="feature-title">
+                                    <h4>강력한 AI SPO Engin 추천 및<br>조합 알고리즘  </h4>
+                                </div><!-- /feature-title -->
+
+                            </div><!-- /feature-box-style-1 -->
+
+
+                        </div><!-- /col-md-4 right -->
+
+
+                    </div><!-- /row -->
+                </div><!-- /container -->
+
+            </div><!-- /home-section-wrapper -->
+        </section><!-- /home-section -->
+
+
+
+
+        <!-- =========================================
+        Feature Section
+        ========================================== -->
+        <!-- feature-section -->
+        <section id="feature-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>Key Features</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>SPOMAN이 제공하는 두 가지 핵심 가치를 아이콘과 함께 시각적으로 설명합니다.</p>
+                        </div><!-- /section-desc -->
+
+                    </div><!-- /col-md-12 -->
+                    <div class="col-md-12 pb-50 text-center">
+                        <!-- feature-image -->
+                        <div class="feature-image">
+                            <img src="images/feature-images/005.png" alt="Feature Image" />
+                        </div><!-- /feature-image -->
+
+                    </div><!-- /col-md-6 no-pad-right -->
+
+
+                    <!-- col-md-4 -->
+                    <div class="col-md-6">
+
+                        <!-- feature-box-style-2 -->
+                        <div class="feature-box-style-2" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500, repeat: true}">
+
+                            <!-- feature-icon -->
+                            <div class="feature-icon">
+                                <i class="fa fa-clock-o"></i>
+                            </div><!-- /feature-icon -->
+
+                            <!-- feature-title -->
+                            <div class="feature-title">
+                                <h4>AI 승부 예측 분석 (Deep Analysis)</h4>
+                            </div><!-- /feature-title -->
+
+                            <!-- feature-desc -->
+                            <div class="feature-desc">
+                                <h5 class="pb-20">이제 직감(Feeling)이 아닌 데이터(Data)로 승부하세요!</h5>
+                                <p>- 과거 10년 이상의 경기 데이터, 선수 컨디션, 날씨, 상대 전적 등 50여 가지 변수를 실시간으로 학습합니다.<br>
+
+                                    - 단순한 승패 예측을 넘어, 핸디캡 및 언더/오버까지 정밀하게 분석하여 객관적인 확률을 제공합니다.</p>
+                            </div><!-- /feature-desc -->
+
+                        </div><!-- /feature-box-style-2 -->
+
+                    </div><!-- /col-md-4 -->
+
+
+                    <!-- col-md-4 -->
+                    <div class="col-md-6">
+
+                        <!-- feature-box-style-2 -->
+                        <div class="feature-box-style-2" data-uk-scrollspy="{cls:'uk-animation-fade', delay:500, repeat: true}">
+
+                            <!-- feature-icon -->
+                            <div class="feature-icon">
+                                <i class="fa fa-bullseye"></i>
+                            </div><!-- /feature-icon -->
+
+                            <!-- feature-title -->
+                            <div class="feature-title">
+                                <h4>AI 스마트 조합 & 추천 (Smart Betting Strategy)</h4>
+                            </div><!-- /feature-title -->
+
+                            <!-- feature-desc -->
+                            <div class="feature-desc">
+                                <h5 class="pb-20">최적의 조합, 최고의 환수율!</h5>
+                                <p>- 리스크는 낮추고, 적중률을 극대화하는 '황금 비율' 조합을 AI가 직접 설계합니다.
+                            </div><!-- /feature-desc -->
+
+                        </div><!-- /feature-box-style-2 -->
+
+                    </div><!-- /col-md-4 -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /feature-section -->
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#works-section" title="How It Works" class="scrollto">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#feature-section" title="Awesome Features" class="scrollto">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        How it Works Section
+        ========================================== -->
+        <!-- works-section -->
+        <section id="works-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>SPO Engine</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>The Core of Victory, SPO Engine</p>
+                        </div><!-- /section-desc -->
+                    </div><!-- /col-md-12 -->
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12 text-center">
+                        <!-- col-md-6 no-pad-left -->
+                            <!-- section-short-title -->
+                            <div class="section-short-title2">
+                                <h1>SPO 엔진은 살아있는 유기체처럼 매 순간 진화합니다.</h1>
+                            </div><!-- /section-short-title -->
+                            <!-- section-short-desc -->
+                            <div class="section-short-desc2">
+                                <p>다차원 데이터 수집 및 처리, AI 예측 모델링, 강력한 AI SPO Engin 추천 및 조합 알고리즘</p>
+                            </div><!-- /section-short-desc -->
+                            <!-- feature-box-style-2 -->
+                            <div class="feature-box-style-2">
+                                <div class="feature-title2">
+                                    <h4>Our Mission</h4>
+                                </div><!-- /feature-title -->
+
+                                <!-- feature-desc -->
+                                <div class="feature-desc">
+                                    <p>SPO 엔진은 스포츠 데이터에 특화된 독자적인 머신러닝 알고리즘입니다. 전 세계 리그의 실시간 데이터를 0.1초 단위로 수집·가공하며, 경기 직전 라인업 변화나 배당률의 미세한 흐름까지 감지하여 예측 모델을 스스로 보정합니다. 인간의 분석 한계를 뛰어넘는 SPO 엔진만의 초정밀 알고리즘을 경험해보세요.</p>
+                                </div><!-- /feature-desc -->
+                            </div>
+                    </div><!-- /col-md-12 -->
+                    <div class="col-md-12 text-center">
+                        <!-- feature-image -->
+                        <div class="feature-image">
+                            <img src="images/feature-images/002.png" alt="Feature Image" />
+                        </div><!-- /feature-image -->
+
+                    </div><!-- /col-md-6 no-pad-right -->
+
+
+                    <div class="col-md-12 pb-100 pt-50">
+                        <div class="like-buttons" data-uk-scrollspy="{cls:'uk-animation-fade', delay:500, repeat: true}">
+                            <a class="btn btn-lg btn-nesto" href="javascript:void(0)" title="App Store">
+                                <i class="fa fa-apple"></i> App Store
+                            </a>
+                            <a class="btn btn-lg btn-nesto" href="javascript:void(0)" title="Google Play">
+                                <i class="fa fa-android"></i> Google Play
+                            </a>
+                        </div><!-- /buttons -->
+                    </div>
+
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /works-section -->
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#portfolio-section" title="Screenshots of App" class="scrollto">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#works-section" title="How It Works" class="scrollto">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        Portfolio Section
+        ========================================== -->
+        <!-- portfolio-section -->
+        <section id="portfolio-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>Screenshots of App</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc2" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>오늘의 주요 경기 일정과 AI 추천 픽을 카드 UI로 구성하여, 앱 실행 즉시 가장 중요한 정보를 한눈에 파악할 수 있는 사용자 중심 화면<br>
+                                양 팀의 객관적 전력을 나타내는 분석과와 시즌 흐름, 그리고 AI 알고리즘이 예측한 예상 스코어를 통해 정밀한 분석 정보를 제공<br>
+                                사용자가 선택한 경기 조합(폴더)에 따른 총 배당률과 기대 수익, 그리고 AI가 진단한 적중 확률을 실시간으로 계산해 주는 스마트 툴
+                        </div><!-- /section-desc -->
+
+                    </div><!-- /col-md-12 -->
+
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12 no-pad-right no-pad-left">
+
+
+                        <!-- owl-portfolio -->
+                        <div class="owl-portfolio">
+
+
+                            <!-- portfolio-item -->
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+
+                                    <img src="images/portfolio/001.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+
+                            <!-- portfolio-item -->
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+                                    <!-- portfolio-overlayer -->
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/002.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+
+                            <!-- portfolio-item -->
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+                                    <!-- portfolio-overlayer -->
+
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/003.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+
+                            <!-- portfolio-item -->
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+                                    <!-- portfolio-overlayer -->
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/004.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+
+                            <!-- portfolio-item -->
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/005.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/006.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+                            <div class="portfolio-item">
+
+                                <!-- portfolio-content -->
+                                <div class="portfolio-content">
+
+
+                                    <!-- portfolio-image -->
+                                    <img src="images/portfolio/007.png" alt="Portfolio Image" />
+
+                                </div><!-- /portfolio-content -->
+
+                            </div><!-- /portfolio-item -->
+
+
+
+
+
+                        </div><!-- /owl-portfolio -->
+
+
+                    </div><!-- col-md-12 -->
+
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /portfolio-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#faq-section" title="Faqs" class="scrollto">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#moreapps-section" title="More APPs" class="scrollto">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        FAQ Section
+        ========================================== -->
+        <!-- faq-section -->
+        <section id="faq-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>Faqs</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>자주 묻는 질문 (FAQ)</p>
+                        </div><!-- /section-desc -->
+
+                    </div><!-- /col-md-12 -->
+
+
+                    <!-- faq-tabs -->
+                    <div class="faq-tabs">
+
+                        <!-- faq-tabs-btns -->
+                        <ul class="faq-tabs-btns">
+                            <li>
+                                <a href="#faq1" title="How to Install APP ON ?">
+                                    AI 예측 정확도는 얼마나 되나요?
+                                </a>
+                             </li>
+                            <li>
+                                <a href="#faq2" title="How to Make New User ?">
+                                    어떤 종목과 리그를 분석해 주나요?
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#faq3" title="How to Earn Bitcoin ?">
+                                    스포맨은 어떤 서비스인가요?
+                                </a>
+                             </li>
+                             <li>
+                                <a href="#faq4" title="How to Delete My Profile ?">
+                                    회원가입을 해야만 이용할 수 있나요?
+                                </a>
+                            </li>
+                        </ul><!-- /faq-tabs-btns -->
+
+                        <!-- col-md-6 -->
+                        <div class="col-md-6">
+
+                            <!-- faqcontent -->
+                            <div id="faq1Containt" class="faqcontent">
+
+                                <!-- content-desc -->
+                                <div class="content-desc">
+                                    <h3>AI 예측 정확도는 얼마나 되나요?</h3>
+                                    <p>스포맨의 AI는 방대한 과거 데이터와 실시간 변수를 학습하여 높은 적중률을 목표로 합니다. 다만, 스포츠 경기의 특성상 변수가 많아 100%의 결과를 보장할 수는 없으며, 제공되는 데이터는 결정에 참고 자료로 활용하시기를 권장합니다.</p>
+                                </div><!-- /content-desc -->
+                                <ul class="mini-feature-list">
+                                    <li><i class="fa fa-check-circle-o"></i>#SPO ENGIN</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#실시간 변수 학습</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#AI 승부 예측 분석</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#AI 스마트 조합</li>
+                                </ul><!-- /mini-feature-list -->
+
+
+
+                            </div><!-- /faqcontent -->
+
+
+                            <!-- faqcontent -->
+                            <div id="faq2Containt" class="faqcontent">
+
+                                <!-- content-desc -->
+                                <div class="content-desc">
+                                    <h3>어떤 종목과 리그를 분석해 주나요?</h3>
+                                    <p>현재 농구(NBA, KBL)를 비롯하여 축구, 야구 등 주요 인기 종목의 데이터를 제공하고 있습니다. 시즌별로 지원하는 리그가 추가되거나 변경될 수 있으며, 자세한 분석 일정은 [공지사항]을 참고해 주세요.</p>
+                                </div><!-- /content-desc -->
+                                <ul class="mini-feature-list">
+                                    <li><i class="fa fa-check-circle-o"></i>#프로토</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#MLB #KBO #NPB</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#EPL #FC #UCL #K리그</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#NBA #KBL #WKBL</li>
+                                </ul><!-- /mini-feature-list -->
+
+
+
+                            </div><!-- /faqcontent -->
+
+
+                            <!-- faqcontent -->
+                            <div id="faq3Containt" class="faqcontent">
+
+                                <!-- content-desc -->
+                                <div class="content-desc">
+                                    <h3>스포맨은 어떤 서비스인가요?</h3>
+                                    <p>스포맨은 빅데이터와 AI 기술을 활용하여 스포츠 경기의 결과를 예측하고 심층 분석 데이터를 제공하는 서비스입니다. 단순히 승패뿐만 아니라 선수별 컨디션, 팀 전력 비교, 상대 전적 등 다양한 지표를 통해 합리적인 선택을 도와드립니다.</p>
+                                </div><!-- /content-desc -->
+
+                                <ul class="mini-feature-list">
+                                    <li><i class="fa fa-check-circle-o"></i>#빅데이터</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#심층 분석</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#승무패 분석</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#산대전적 분석</li>
+                                </ul><!-- /mini-feature-list -->
+
+
+                            </div><!-- /faqcontent -->
+
+
+                            <!-- faqcontent -->
+                            <div id="faq4Containt" class="faqcontent">
+
+                                <!-- content-desc -->
+                                <div class="content-desc">
+                                    <h3>회원가입을 해야만 이용할 수 있나요?</h3>
+                                    <p>비회원 상태에서도 일부 기본 정보는 확인하실 수 있습니다. 하지만  포인트 적립, 프리미엄 분석 열람 등을 위해서는 간단한 회원가입(또는 소셜 로그인)이 필요합니다. 또한 기본적인 경기 일정 정보는 무료로 제공됩니다. 다만, AI가 생성한 '상세 분석 리포트' 및 '추천 조합'은 포인트를 사용하여 열람하실 수 있습니다.
+
+                                        포인트는 무료/유료가 구분되어 있습니다.</p>
+                                </div><!-- /content-desc -->
+
+                                <!-- mini-feature-list -->
+                                <ul class="mini-feature-list">
+                                    <li><i class="fa fa-check-circle-o"></i>#소셜 로그인</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#유료 포인트</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#광고 보기</li>
+                                    <li><i class="fa fa-check-circle-o"></i>#비회원 열람 가능</li>
+                                </ul><!-- /mini-feature-list -->
+
+                                <!-- mini-feature-list -->
+
+
+                            </div><!-- /faqcontent -->
+
+
+                        </div><!-- /col-md-6 -->
+
+                    </div><!-- /faq-tabs -->
+
+                    <!-- lets-see-btn -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /faq-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#recent-section" title="Recent Posts" class="scrollto">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a href="#price-section" title="Select Your Price" class="scrollto">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        Recent Section
+        ========================================== -->
+        <!-- recent-section -->
+        <section id="recent-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>User Real Story</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>SPOMAN 데이터가 증명하는 압도적 사용 후기</p>
+                        </div><!-- /section-desc -->
+
+                    </div><!-- /col-md-12 -->
+
+
+                    <!-- col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+
+                        <!-- mini-post -->
+                        <div class="mini-post" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500, repeat: true}">
+
+                            <!-- post-image -->
+
+                            <!-- post-title -->
+                            <div class="post-title pb-10">
+                                <h4>
+                                    데이터 분석의 중요성을 깨달은 <br>직장인 김OO님
+                                </h4>
+                            </div><!-- /post-title -->
+
+                            <!-- post-date -->
+                            <div class="post-date">
+                                <h4>2026. 02. 01.</h4>
+                            </div><!-- /post-date -->
+
+                            <!-- post-content -->
+                            <div class="post-content">
+                                <p>"매번 팬심으로만 응원 팀에 베팅하다가 손해만 봤습니다. SPOMAN이 '감정'을 배제하고 객관적인 데이터로 반대 팀 승리를 추천했을 때 반신반의했지만, 결과는 적중이었습니다. 이제는 제 직감보다 AI 분석을 더 신뢰합니다."</p>
+                            </div><!-- /post-content -->
+
+                            <!-- post-btn-more -->
+
+
+                        </div><!-- /mini-post -->
+
+                    </div><!-- /col-md-3 -->
+
+
+                    <!-- col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+
+                        <!-- mini-post -->
+                        <div class="mini-post" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:700, repeat: true}">
+
+                            <!-- post-title -->
+                            <div class="post-title pb-10">
+                                <h4>
+                                    바쁜 일상 속, 시간 절약이 필요한 <br>자영업자 이OO님
+                                </h4>
+                            </div><!-- /post-title -->
+
+                            <!-- post-date -->
+                            <div class="post-date">
+                                <h4>2026. 02. 05.</h4>
+                            </div><!-- /post-date -->
+
+                            <!-- post-content -->
+                            <div class="post-content">
+                                <p>"가게 일 때문에 분석할 시간이 전혀 없었는데, SPOMAN이 매일 아침 '추천 조합'을 쉡게 할 수 있어 너무 편합니다. 복잡한 분석 없이 AI가 짜준 대로만 갔는데 지난달 수익률이 역대 최고를 찍었네요."</p>
+                            </div><!-- /post-content -->
+
+                            <!-- post-btn-more -->
+
+                        </div><!-- /mini-post -->
+
+                    </div><!-- /col-md-3 -->
+
+
+                    <!-- col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+
+                        <!-- mini-post -->
+                        <div class="mini-post" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:900, repeat: true}">
+
+                            <!-- post-title -->
+                            <div class="post-title pb-10">
+                                <h4>
+                                    소액으로 즐기는 스포츠 팬 <br>박OO님</a>
+                                </h4>
+                            </div><!-- /post-title -->
+
+                            <!-- post-date -->
+                            <div class="post-date">
+                                <h4>2026. 02. 08.</h4>
+                            </div><!-- /post-date -->
+
+                            <!-- post-content -->
+                            <div class="post-content">
+                                <p>"큰돈 쓰기는 무섭고 소액으로 즐기는데, SPO 엔진의 '조합 추천' 기능이 딱입니다. 무리하지 않고 확실한 경기만 콕 집어주니 적중하는 재미가 쏠쏠해요. 치킨값 버는 재미에 푹 빠졌습니다."</p>
+                            </div><!-- /post-content -->
+
+                            <!-- post-btn-more -->
+
+                        </div><!-- /mini-post -->
+
+                    </div><!-- /col-md-3 -->
+
+
+                    <!-- col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+
+                        <!-- mini-post -->
+                        <div class="mini-post" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:1100, repeat: true}">
+
+
+                            <!-- post-title -->
+                            <div class="post-title pb-10">
+                                <h4>
+                                    데이터 마니아 <br>최OO님
+                                </h4>
+                            </div><!-- /post-title -->
+
+                            <!-- post-date -->
+                            <div class="post-date">
+                                <h4>2026. 02. 10.</h4>
+                            </div><!-- /post-date -->
+
+                            <!-- post-content -->
+                            <div class="post-content">
+                                <p>"저는 데이터를 파고드는 걸 좋아하는데, SPOMAN의 상세 분석 화면은 정말 수준급입니다. 단순 승패뿐만 아니라 선수별 상세 스탯과 맞대결 변수까지 디테일하게 보여주니 분석의 깊이가 달라졌습니다."</p>
+                            </div><!-- /post-content -->
+
+                            <!-- post-btn-more -->
+
+
+                        </div><!-- /mini-post -->
+
+                    </div><!-- /col-md-3 -->
+
+
+                    <!-- lets-see-btn -->
+
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /recent-section -->
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#reach-section" title="Contact Us" class="scrollto"><i class="fa fa-angle-down"></i></a>
+            <a href="#recent-section" title="Recent Posts" class="scrollto"><i class="fa fa-angle-up"></i></a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        Reach Section
+        ========================================== -->
+        <!-- reach-section -->
+        <section id="reach-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>Contact Us</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>SPOMAN에 제안사항이나 문의사항을 접수해주시면 빠른 시간 내에 답변 드리겠습니다.</p>
+                        </div><!-- /section-desc -->
+
+                    </div><!-- /col-md-12 -->
+
+
+
+                    <!-- form -->
+                    <form role="form" id="form" class="contactForm" method="post" action="php/send.php">
+
+
+                        <!-- Contact Name -->
+                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500, repeat: true}">
+
+                            <div class="controls">
+                                <input type="text" class="form-control requiredField" placeholder="이름" name="name">
+                            </div>
+
+                        </div><!-- /Contact Name -->
+
+
+
+                        <!-- Contact Mail -->
+                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500, repeat: true}">
+
+                            <div class="controls">
+                                <input type="email" class="form-control email requiredField" placeholder="이메일 주소" name="email">
+                            </div>
+
+                        </div><!-- /Contact Mail -->
+
+
+                        <!-- Contact Subject -->
+                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500, repeat: true}">
+
+                            <div class="controls">
+                                <input type="text" class="form-control requiredField" placeholder="문의 제목" name="subject">
+                            </div>
+
+                        </div><!-- /Contact Subject -->
+
+
+
+                        <!-- Contact Message -->
+                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500, repeat: true}">
+
+                            <div class="controls">
+                                <textarea rows="10" class="form-control requiredField" placeholder="문의 내용" name="message"></textarea>
+                            </div>
+
+                        </div><!-- /Contact Message -->
+
+                        <!-- Submit Button -->
+                        <div  data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500, repeat: true}">
+                            <button type="submit" class="btn btn-lg submit">Submit</button>
+                        </div>
+
+
+                    </form><!-- /form -->
+
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /reach-section -->
+
+
+
+
+
+
+        <!-- =========================================
+        Arrows Section
+        ========================================== -->
+        <!-- arrows-section -->
+        <section class="arrows-section">
+            <a href="#home-section" title="Home" class="scrollto">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </section><!-- /arrows-section -->
+
+
+
+
+        <!-- =========================================
+        Like Section
+        ========================================== -->
+        <!-- like-section -->
+        <section id="like-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- section-title -->
+                        <div class="section-title" data-uk-scrollspy="{cls:'uk-animation-slide-top', delay:500, repeat: true}">
+                            <h1>SPOMAN</h1>
+                        </div><!-- /section-title -->
+
+                        <!-- section-desc -->
+                        <div class="section-desc" data-uk-scrollspy="{cls:'uk-animation-fade', delay:700, repeat: true}">
+                            <p>당신의 직감을 확신으로 바꾸는 AI 스포츠 분석</p>
+                        </div><!-- /section-desc -->
+
+                        <!-- buttons -->
+                        <div class="like-buttons" data-uk-scrollspy="{cls:'uk-animation-fade', delay:500, repeat: true}">
+                            <a class="btn btn-lg btn-nesto" href="javascript:void(0)" title="App Store">
+                                <i class="fa fa-apple"></i> App Store
+                            </a>
+                            <a class="btn btn-lg btn-nesto" href="javascript:void(0)" title="Google Play">
+                                <i class="fa fa-android"></i> Google Play
+                            </a>
+                        </div><!-- /buttons -->
+
+                    </div><!-- /col-md-12 -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /like-section -->
+
+
+
+
+        <!-- =========================================
+        Footer Section
+        ========================================== -->
+        <!-- footer-section -->
+        <section id="footer-section">
+
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+
+
+                    <!-- col-md-12 -->
+                    <div class="col-md-12">
+
+                        <!-- footer-social-icons -->
+                        <div class="footer-social-icons">
+                            <ul>
+                                <!--<li>
+                                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                </li>-->
+                                <li>
+                                    <a href="" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                </li><li>
+                                    <a href="" title="instagram"><i class="fa fa-instagram"></i></a>
+                                <!--</li><li>
+                                    <a href="#" title="Skype"><i class="fa fa-skype"></i></a>
+                                </li><li>
+                                    <a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                </li>-->
+                            </ul>
+                        </div><!-- /footer-social-icons -->
+
+                    </div><!-- /col-md-12 -->
+
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+        </section><!-- /footer-section -->
+
+
+
+
+        <!-- =========================================
+        java script
+        ========================================== -->
+        <script type="text/javascript" src="js/plugins/jquery-2.2.3/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap-3.3.5/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/plugins/sliderTabs/jquery.sliderTabs.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery.scrollto.js"></script>
+        <script type="text/javascript" src="js/plugins/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script type="text/javascript" src="js/plugins/fancybox/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="js/plugins/fancybox/helpers/jquery.fancybox-media.js"></script>
+        <script type="text/javascript" src="assets/plugins/owl.carousel2/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery.mlens-1.3.min.js"></script>
+        <script type="text/javascript" src="js/plugins/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/plugins/flickrfeed/jflickrfeed.min.js"></script>
+        <script type="text/javascript" src="js/plugins/supersized/supersized.3.2.7.min.js"></script>
+        <script type="text/javascript" src="js/plugins/uikit/uikit.js"></script>
+        <script type="text/javascript" src="js/plugins/retina-1.1.0.js"></script>
+        <script type="text/javascript" src="js/app-on.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="js/plugins/html5shiv.js"></script>
+            <script src="js/plugins/selectivizr.js"></script>
+        <![endif]-->
+
+
+        <!-- Switcher For Demo only
+        <section id="StyleSwitcher">
+
+            <a href="javascript:void(0)" class="switcher-btn"><i class="fa fa-gear fa-spin"></i></a>
+
+            <h3>Style Switcher</h3>
+
+            <div class="switcher-style">
+                <a href="index-2.html" title="Style Two">Style Two</a>
+            </div>
+
+            <div class="switcher-colors">
+                <a href="javascript:void(0)" title="red-1" class="color-switch red-1"></a>
+                <a href="javascript:void(0)" title="red-2" class="color-switch red-2"></a>
+                <a href="javascript:void(0)" title="orange-1" class="color-switch orange-1"></a>
+                <a href="javascript:void(0)" title="orange-2" class="color-switch orange-2"></a>
+                <a href="javascript:void(0)" title="yellow-1" class="color-switch yellow-1"></a>
+                <a href="javascript:void(0)" title="yellow-2" class="color-switch yellow-2"></a>
+                <a href="javascript:void(0)" title="green-1" class="color-switch green-1"></a>
+                <a href="javascript:void(0)" title="green-2" class="color-switch green-2"></a>
+                <a href="javascript:void(0)" title="blue-1" class="color-switch blue-1"></a>
+                <a href="javascript:void(0)" title="blue-2" class="color-switch blue-2"></a>
+                <a href="javascript:void(0)" title="purple-1" class="color-switch purple-1"></a>
+                <a href="javascript:void(0)" title="purple-2" class="color-switch purple-2"></a>
+                <a href="javascript:void(0)" title="Main Color" class="color-switch main-color"></a>
+                <a href="javascript:void(0)" title="pink" class="color-switch pink"></a>
+                <a href="javascript:void(0)" title="cumin" class="color-switch cumin"></a>
+            </div>
+
+            <div class="switcher-page">
+                <a href="../../Dark/sticky-menu/index.html" title="Dark Version">Dark Version</a>
+                <a href="index-parallax.html" title="Parallax Image">Parallax Image</a>
+                <a href="index-video.html" title="Static Video">Static Video</a>
+            </div>
+
+        </section>-->
+
+        <script type="text/javascript" src="StyleSwitcher/switcher.js"></script>
+
+
+
+
+    </body><!-- /body -->
+</html><!-- /html -->
