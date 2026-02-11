@@ -1064,14 +1064,14 @@
 
 
                     <!-- form -->
-                    <form role="form" id="form" class="contactForm" method="post" action="php/send.php">
+                    <form role="form" id="contact-form" class="contactForm" method="post" action="https://formspree.io/f/mnjbjvld">
 
 
                         <!-- Contact Name -->
                         <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500, repeat: true}">
 
                             <div class="controls">
-                                <input type="text" class="form-control requiredField" placeholder="이름" name="name">
+                                <input type="text" class="form-control requiredField" placeholder="이름" name="name" required>
                             </div>
 
                         </div><!-- /Contact Name -->
@@ -1082,7 +1082,7 @@
                         <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500, repeat: true}">
 
                             <div class="controls">
-                                <input type="email" class="form-control email requiredField" placeholder="이메일 주소" name="email">
+                                <input type="email" class="form-control email requiredField" placeholder="이메일 주소" name="email" required>
                             </div>
 
                         </div><!-- /Contact Mail -->
@@ -1092,7 +1092,7 @@
                         <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500, repeat: true}">
 
                             <div class="controls">
-                                <input type="text" class="form-control requiredField" placeholder="문의 제목" name="subject">
+                                <input type="text" class="form-control requiredField" placeholder="문의 제목" name="subject" required>
                             </div>
 
                         </div><!-- /Contact Subject -->
@@ -1103,12 +1103,14 @@
                         <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500, repeat: true}">
 
                             <div class="controls">
-                                <textarea rows="10" class="form-control requiredField" placeholder="문의 내용" name="message"></textarea>
+                                <textarea rows="10" class="form-control requiredField" placeholder="문의 내용" name="message" required></textarea>
                             </div>
 
                         </div><!-- /Contact Message -->
 
                         <!-- Submit Button -->
+                        <input type="hidden" name="_subject" value="SPOMAN 문의">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none;">
                         <div  data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500, repeat: true}">
                             <button type="submit" class="btn btn-lg submit">Submit</button>
                         </div>
