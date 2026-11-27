@@ -139,6 +139,11 @@ jQuery(document).ready(function () {
     /* ==========================================================================
      FORM Validation
      ========================================================================== */
+    // 영어 화면이면 js/i18n.js 의 영어 문구를, 아니면 여기 적힌 한국어를 쓴다.
+    function formMessage(key, ko) {
+        return window.spomanI18n ? window.spomanI18n.text(key, ko) : ko;
+    }
+
     $('form#contact-form').submit(function () {
         $('form#contact-form .error').remove();
         $('form#contact-form .success').remove();
@@ -154,7 +159,7 @@ jQuery(document).ready(function () {
             }
         });
         if (hasError === true) {
-            $('form#contact-form').append('<div class="success"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>필수 입력 항목을 모두 작성해주세요.</p></div></div>');
+            $('form#contact-form').append('<div class="success"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>' + formMessage('contact.required', '필수 입력 항목을 모두 작성해주세요.') + '</p></div></div>');
             return false;
         }
         var formInput = $(this).serialize();
@@ -167,11 +172,11 @@ jQuery(document).ready(function () {
                 'Accept': 'application/json'
             },
             success: function () {
-                $('form#contact-form').append('<div class="success"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>문의가 성공적으로 전송되었습니다. 빠르게 확인 후 답변드리겠습니다.</p></div></div>');
+                $('form#contact-form').append('<div class="success"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>' + formMessage('contact.sent', '문의가 성공적으로 전송되었습니다. 빠르게 확인 후 답변드리겠습니다.') + '</p></div></div>');
                 $('form#contact-form .requiredField').val('');
             },
             error: function () {
-                $('form#contact-form').append('<div class="error"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>전송에 실패했습니다. 잠시 후 다시 시도해주세요.</p></div></div>');
+                $('form#contact-form').append('<div class="error"><div class="alert alert-nesto"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><p>' + formMessage('contact.failed', '전송에 실패했습니다. 잠시 후 다시 시도해주세요.') + '</p></div></div>');
             }
         });
         return false;
